@@ -3,7 +3,7 @@
 # license that can be found in the LICENSE file.
 # SPDX-License-Identifier: BSD-2-Clause
 
-FROM alpine:latest
+FROM alpine:3.20.3
 ENV CC=clang
 ENV CXX=clang++
 RUN apk -q update
